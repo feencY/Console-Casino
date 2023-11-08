@@ -2653,7 +2653,7 @@ SubProceso dinero<-BlackJack(plata Por Referencia, apuesta Por Referencia)
 	mazo=1
 	puntos=0
 	//Iniciar la baraja
-	Para i<-1 hasta 53 Con Paso 1 Hacer
+	Para i<-1 hasta 52 Con Paso 1 Hacer
 		baraja[i]=1
 	FinPara
 	
@@ -2688,7 +2688,7 @@ Funcion MezclarBaraja(mazo)
 	PosAzar1=0
 	PosAzar2=0
 	aux=0
-	para i<-1 hasta 100 Con Paso 1 Hacer
+	para i<-1 hasta 200 Con Paso 1 Hacer
 		PosAzar1=azar(52) + 1
 		PosAzar2=azar(52) + 1
 		Mientras PosAzar2=PosAzar1 Hacer
